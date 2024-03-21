@@ -17,3 +17,11 @@
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+.top a {
+    display: flex;
+}
