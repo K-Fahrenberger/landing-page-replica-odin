@@ -39,3 +39,15 @@ html, body {
   display: flex;
   justify-content: space-around;
 }
+
+.two {
+background-color: pink;
+}
+
+.three {
+    background-color: greenyellow;
+}
+
+.four {
+    background-color: blueviolet;
+}
