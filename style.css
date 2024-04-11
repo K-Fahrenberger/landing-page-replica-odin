@@ -1,27 +1,38 @@
-.header{
-    background-color: #1F2937;
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.container {
+    height: 100%;
+}
+.section {
+  height: 25%;
+}
+
+.header {
+  background-color: #1f2937;
 }
 
 .header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .header a {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .header h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .top {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .top a {
-    display: flex;
+  display: flex;
 }
