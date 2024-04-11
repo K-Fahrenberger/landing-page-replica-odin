@@ -9,10 +9,12 @@ html, body {
     flex-wrap: wrap;
 }
 .section {
+    /* display: flex; */
   /* height: 25%; */
   /* width: 100%; */
   /* flex-basis: 50%; */
   display: wrap;
+  
 }
 
 .header {
