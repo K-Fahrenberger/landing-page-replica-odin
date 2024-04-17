@@ -1,19 +1,23 @@
 :root {
-  --primary-color:#f9faf8;
+  --primary-color: #f9faf8;
 }
+
 html,
 body {
-  height: 100%;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 .container {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
+  flex-direction: column;
 }
 .section {
   display: flex;
-  flex-direction: row;
+  height: 25vh;
+  /* flex-flow: row; */
+  /* flex-direction: row; */
 }
 
 .header {
