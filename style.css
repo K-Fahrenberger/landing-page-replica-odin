@@ -1,20 +1,16 @@
-html, body {
-    height: 100%;
-    margin: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 .container {
-    height: 100%;
-    /* width: 100%; */
-    display: flex;
-    flex-wrap: wrap;
+  height: 100%;
+  display: flex;
 }
 .section {
-    /* display: flex; */
-  /* height: 25%; */
-  /* width: 100%; */
-  /* flex-basis: 50%; */
-  display: wrap;
-  
+  display: flex;
+  flex-direction: row;
 }
 
 .header {
@@ -43,13 +39,13 @@ html, body {
 }
 
 .two {
-background-color: pink;
+  background-color: pink;
 }
 
 .three {
-    background-color: greenyellow;
+  background-color: greenyellow;
 }
 
 .four {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
