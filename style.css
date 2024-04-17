@@ -1,20 +1,23 @@
-html, body {
-    height: 100%;
-    margin: 0;
+:root {
+  --primary-color: #f9faf8;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-    height: 100%;
-    /* width: 100%; */
-    display: flex;
-    flex-wrap: wrap;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
 }
 .section {
-    /* display: flex; */
-  /* height: 25%; */
-  /* width: 100%; */
-  /* flex-basis: 50%; */
-  display: wrap;
-  
+  display: flex;
+  height: 25vh;
+  /* flex-flow: row; */
+  /* flex-direction: row; */
 }
 
 .header {
@@ -23,10 +26,11 @@ html, body {
 
 .header-logo {
   font-size: 24px;
-  color: #f9faf8;
+  color: var(--primary-color);
 }
 
 .header a {
+  display: flex;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -34,7 +38,7 @@ html, body {
 .header h1 {
   font-size: 48px;
   font-weight: bolder;
-  color: #f9faf8;
+  color: var(--primary-color);
 }
 
 .top {
@@ -43,13 +47,13 @@ html, body {
 }
 
 .two {
-background-color: pink;
+  background-color: pink;
 }
 
 .three {
-    background-color: greenyellow;
+  background-color: greenyellow;
 }
 
 .four {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
