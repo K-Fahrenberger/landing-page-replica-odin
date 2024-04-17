@@ -1,3 +1,6 @@
+:root {
+  --primary-color:#f9faf8;
+}
 html,
 body {
   height: 100%;
@@ -19,7 +22,7 @@ body {
 
 .header-logo {
   font-size: 24px;
-  color: #f9faf8;
+  color: var(--primary-color);
 }
 
 .header a {
@@ -30,7 +33,7 @@ body {
 .header h1 {
   font-size: 48px;
   font-weight: bolder;
-  color: #f9faf8;
+  color: var(--primary-color);
 }
 
 .top {
