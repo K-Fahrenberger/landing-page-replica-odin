@@ -1,5 +1,8 @@
 :root {
   --primary-color: #f9faf8;
+  --secondary-color: #1f2937;
+  --tertiary-color: #3882f6;
+  --quaternary-color: #e5e7eb;
 }
 
 html,
@@ -20,40 +23,45 @@ body {
   /* flex-direction: row; */
 }
 
-.header {
-  background-color: #1f2937;
-}
-
-.header-logo {
-  font-size: 24px;
-  color: var(--primary-color);
-}
-
-.header a {
+.zero {
+  background-color: var(--secondary-color);
+  height: 10vh;
   display: flex;
-  font-size: 18px;
-  color: #e5e7eb;
 }
-
-.header h1 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: var(--primary-color);
-}
-
-.top {
-  display: flex;
-  justify-content: space-around;
+.one {
+  background-color: var(--secondary-color);
+  height: 15vh;
 }
 
 .two {
-  background-color: pink;
+  background-color: var(--primary-color);
 }
 
 .three {
-  background-color: greenyellow;
+  background-color: var(--quaternary-color);
 }
 
 .four {
-  background-color: blueviolet;
+  background-color: var(--primary-color);
+  height: 20vh;
+}
+
+.five {
+  height: 5vh;
+  background-color: var(--secondary-color);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+.header h3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.header a {
+  align-items: flex-end;
+  font-size: 18px;
+  color: #e5e7eb;
 }
