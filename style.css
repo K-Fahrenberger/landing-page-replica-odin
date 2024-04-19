@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-  background-color: #1f2937;
+  background-color: var(--secondary-color);
 }
 
 .header-logo {
@@ -57,4 +57,10 @@ body {
 
 .four {
   background-color: blueviolet;
+  height: 20vh;
+}
+
+.five {
+  height: 5vh;
+  background-color: var(--secondary-color);
 }
