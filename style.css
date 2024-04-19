@@ -1,8 +1,8 @@
 :root {
   --primary-color: #f9faf8;
   --secondary-color: #1f2937;
-  --tertiary-color: #3882F6;
-  --quaternary-color: #E5E7EB;
+  --tertiary-color: #3882f6;
+  --quaternary-color: #e5e7eb;
 }
 
 html,
@@ -23,30 +23,14 @@ body {
   /* flex-direction: row; */
 }
 
-.header {
+.zero {
   background-color: var(--secondary-color);
-}
-
-.header-logo {
-  font-size: 24px;
-  color: var(--primary-color);
-}
-
-.header a {
+  height: 10vh;
   display: flex;
-  font-size: 18px;
-  color: #e5e7eb;
 }
-
-.header h1 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: var(--primary-color);
-}
-
-.top {
-  display: flex;
-  justify-content: space-around;
+.one {
+  background-color: var(--secondary-color);
+  height: 15vh;
 }
 
 .two {
@@ -65,4 +49,19 @@ body {
 .five {
   height: 5vh;
   background-color: var(--secondary-color);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+.header h3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.header a {
+  align-items: flex-end;
+  font-size: 18px;
+  color: #e5e7eb;
 }
