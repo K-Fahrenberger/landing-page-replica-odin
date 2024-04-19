@@ -1,6 +1,8 @@
 :root {
   --primary-color: #f9faf8;
   --secondary-color: #1f2937;
+  --tertiary-color: #3882F6;
+  --quaternary-color: #E5E7EB;
 }
 
 html,
@@ -48,15 +50,15 @@ body {
 }
 
 .two {
-  background-color: pink;
+  background-color: var(--primary-color);
 }
 
 .three {
-  background-color: greenyellow;
+  background-color: var(--quaternary-color);
 }
 
 .four {
-  background-color: blueviolet;
+  background-color: var(--primary-color);
   height: 20vh;
 }
 
